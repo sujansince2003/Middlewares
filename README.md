@@ -205,7 +205,8 @@ One more Example of Middleware
 
 *We created a simple Express application with a custom middleware function that checks if the current time falls within working hours. If the request is made outside of these hours, the middleware sends a response indicating that the service is unavailable. Otherwise, it allows the request to proceed to the route handler. This example demonstrates how middleware can be used to perform logic before passing control to route handlers, enabling modular and maintainable application design*.
 
-`const express = require('express'); const app = express(); const PORT = 3000;`
+```
+const express = require('express'); const app = express(); const PORT = 3000;`
 
 `// Middleware to check working hours const workingHoursMiddleware = (req, res, next) => { const currentHour = new Date().getHours(); if (currentHour < 9 || currentHour > 17) { return res.status(503).send('Service unavailable outside working hours (9 AM to 5 PM)'); } next(); // Proceed to the next middleware or route handler };`
 
@@ -226,5 +227,7 @@ we are using  `app.use()` to apply middleware globally, affecting all routes b
 `// Root route without the middleware app.get('/', (req, res) => { res.send('Welcome to the root route! This route is always available.'); });`
 
 `// Start the server app.listen(PORT, () => { console.log(Server running on <http://localhost>:${PORT}); });`
+
+```
 
 
