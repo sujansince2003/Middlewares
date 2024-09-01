@@ -1,5 +1,5 @@
 <h1 >Middlewares in Express</h1>
-<a href="https://carpal-appendix-567.notion.site/Middlewares-in-Express-7b115197783f42e0a6d03cad2001d024?pvs=4">View Notion Notes on Middlewares</a>
+<a href="https://carpal-appendix-567.notion.site/Middlewares-in-Express-7b115197783f42e0a6d03cad2001d024?pvs=4" target="_blank">View Notion Notes on Middlewares</a>
 <br />
 Middleware in backend development refers to software components that are assembled into an application pipeline to handle requests and responses. Each component chooses whether to pass the request on to the next component in the pipeline, and can perform certain actions before and after the next component is invoked in the pipeline. Middleware components can perform a variety of functions such as logging, error handling, serving static files, authentication, and more.
 
