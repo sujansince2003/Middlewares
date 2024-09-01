@@ -1,5 +1,6 @@
-<h1>Middlewares in Express</h1>
-**Middleware in backend development refers to software components that are assembled into an application pipeline to handle requests and responses. Each component chooses whether to pass the request on to the next component in the pipeline, and can perform certain actions before and after the next component is invoked in the pipeline. Middleware components can perform a variety of functions such as logging, error handling, serving static files, authentication, and more.**
+<h1 >Middlewares in Express</h1>
+<a href="https://carpal-appendix-567.notion.site/Middlewares-in-Express-7b115197783f42e0a6d03cad2001d024?pvs=4">view Notes</a>
+Middleware in backend development refers to software components that are assembled into an application pipeline to handle requests and responses. Each component chooses whether to pass the request on to the next component in the pipeline, and can perform certain actions before and after the next component is invoked in the pipeline. Middleware components can perform a variety of functions such as logging, error handling, serving static files, authentication, and more.
 
 ![1_3U2QnpCYn5o7vgv_CzO4tQ.png](https://i.postimg.cc/dVnVS0x5/1-3-U2-Qnp-CYn5o7vgv-Cz-O4t-Q.png)
 
